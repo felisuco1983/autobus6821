@@ -1,9 +1,15 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f5f7fa;
   margin: 0;
   padding: 0;
+
+  /* 👇 Fondo */
+  background-image: url("fondo.jpg");   /* ruta a tu imagen */
+  background-size: cover;              /* que ocupe toda la pantalla */
+  background-position: center;         /* centrada */
+  background-attachment: fixed;        /* efecto parallax */
 }
+
 
 .container {
   max-width: 900px;
@@ -12,6 +18,7 @@ body {
   background: #fff;
   border-radius: 10px;
   margin-top: 30px;
+  background: rgba(255, 255, 255, 0.85); /* blanco con 85% opacidad */
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
@@ -61,3 +68,4 @@ tr:nth-child(even) {
   color: red;
   font-weight: bold;
 }
+
