@@ -1,0 +1,149 @@
+{
+  "nombre": " \"Brīvības bulvāris\"",
+  "maps": "https://www.google.com/maps?q=56.95175,24.11617",
+  "direcciones": {
+    "Kadaga → Rīga": [],
+    "Rīga → Kadaga": [
+      {
+        "hora": " 06:51:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 07:21:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 07:48:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 09:01:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 09:31:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 10:04:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 10:49:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 11:34:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 11:54:00",
+        "dias": "6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 12:18:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 12:44:00",
+        "dias": "6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 13:06:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 13:16:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 14:06:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 14:07:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 15:04:00",
+        "dias": "6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 15:09:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 15:56:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 16:23:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 16:42:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 17:04:00",
+        "dias": "6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 17:06:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 18:18:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 19:14:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 20:36:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 21:35:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 22:36:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 23:34:00",
+        "dias": "6 7",
+        "destino": "Kadaga"
+      }
+    ]
+  }
+}
