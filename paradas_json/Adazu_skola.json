@@ -1,0 +1,190 @@
+{
+  "nombre": " \"Ādažu skola\"",
+  "maps": "https://www.google.com/maps?q=57.0798672,24.3345361",
+  "direcciones": {
+    "Kadaga → Rīga": [
+      {
+        "hora": " 05:25:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 05:43:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 06:15:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 06:53:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 06:55:00",
+        "dias": "6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 07:48:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 08:00:00",
+        "dias": "6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 08:37:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 09:47:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 10:22:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 11:55:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 12:55:00",
+        "dias": "6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 12:55:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 13:57:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 14:50:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 14:55:00",
+        "dias": "6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 15:42:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 15:55:00",
+        "dias": "6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 16:39:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 16:41:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 16:55:00",
+        "dias": "6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 17:05:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 17:53:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 18:57:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 19:57:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 21:10:00",
+        "dias": "6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 21:10:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 22:18:00",
+        "dias": "6 7",
+        "destino": "Riga"
+      },
+      {
+        "hora": " 22:20:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Riga"
+      }
+    ],
+    "Rīga → Kadaga": [
+      {
+        "hora": " 07:28:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 08:51:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 11:08:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 12:38:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 17:33:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 18:10:00",
+        "dias": "1 2 3 4 5",
+        "destino": "Kadaga"
+      },
+      {
+        "hora": " 22:53:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": "Kadaga"
+      }
+    ]
+  }
+}
