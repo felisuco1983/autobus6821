@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Horarios Bus 6821</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚌 Horarios Bus 6821</h1>
+    <div class="controls">
+      <label for="parada">Parada:</label>
+      <select id="parada"></select>
+
+      <label for="direccion">Dirección:</label>
+      <select id="direccion">
+        <option value="Todas">Todas</option>
+        <option value="Kadaga → Rīga">Kadaga → Rīga</option>
+        <option value="Rīga → Kadaga">Rīga → Kadaga</option>
+      </select>
+
+      <button id="mapsBtn">Abrir en Google Maps</button>
+    </div>
+
+    <table id="tabla">
+      <thead>
+        <tr>
+          <th>Hora</th>
+          <th>Días</th>
+          <th>Destino</th>
+          <th>Cuenta atrás</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
