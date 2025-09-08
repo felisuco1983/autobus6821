@@ -8,37 +8,48 @@ const mapsBtn = document.getElementById("mapsBtn");
 let paradas = {};
 let paradaActual = null;
 
+// --- Cargar lista de paradas desde index.json ---
 async function listarParadas() {
-  // 👇 IMPORTANTE: no se puede listar archivos desde JS puro en el navegador
-  // Así que tendrás que generar un `index.json` con la lista de paradas disponibles
-  let resp = await fetch(`${PARADAS_DIR}/index.json`);
-  let data = await resp.json();
-  return data.paradas;
+  try {
+    let resp = await fetch(`${PARADAS_DIR}/index.json`);
+    if (!resp.ok) throw new Error(`Error ${resp.status}: no se pudo cargar index.json`);
+    let data = await resp.json();
+    console.log("Contenido de index.json:", data);
+    return data.paradas;
+  } catch (err) {
+    console.error("❌ Error al cargar index.json:", err);
+    alert("No se pudo cargar la lista de paradas. Revisa index.json.");
+    return [];
+  }
 }
 
+// --- Cargar datos de una parada ---
 async function cargarParada(nombre) {
-  let resp = await fetch(`${PARADAS_DIR}/${encodeURIComponent(nombre)}.json`);
-  let data = await resp.json();
-  paradas[nombre] = data;
-  return data;
+  try {
+    let resp = await fetch(`${PARADAS_DIR}/${encodeURIComponent(nombre)}.json`);
+    if (!resp.ok) throw new Error(`Archivo no encontrado: ${nombre}.json`);
+    let data = await resp.json();
+    console.log(`✅ Cargado ${nombre}.json`, data);
+    paradas[nombre] = data;
+    return data;
+  } catch (err) {
+    console.error(`❌ Error al cargar ${nombre}.json:`, err);
+    alert(`No se encontró el archivo de la parada "${nombre}". 
+Revisa que exista ${PARADAS_DIR}/${nombre}.json en GitHub.`);
+    return null;
+  }
 }
 
-async function inicializar() {
-  let lista = await listarParadas();
-  paradaSelect.innerHTML = "";
-  lista.forEach(p => {
-    let opt = document.createElement("option");
-    opt.value = p;
-    opt.textContent = p;
-    paradaSelect.appendChild(opt);
-  });
-  paradaActual = lista[0];
-  await mostrarHorarios();
-}
-
+// --- Mostrar horarios en la tabla ---
 async function mostrarHorarios() {
+  if (!paradaActual) return;
   let direccion = direccionSelect.value;
+
   let data = paradas[paradaActual] || await cargarParada(paradaActual);
+  if (!data) {
+    tablaBody.innerHTML = `<tr><td colspan="4">❌ No hay datos para esta parada</td></tr>`;
+    return;
+  }
 
   mapsBtn.onclick = () => window.open(data.maps, "_blank");
 
@@ -84,6 +95,32 @@ async function mostrarHorarios() {
     `;
     tablaBody.appendChild(tr);
   });
+
+  if (salidas.length === 0) {
+    tablaBody.innerHTML = `<tr><td colspan="4">⚠️ No hay horarios disponibles para esta dirección</td></tr>`;
+  }
+}
+
+// --- Inicializar página ---
+async function inicializar() {
+  let lista = await listarParadas();
+  paradaSelect.innerHTML = "";
+
+  if (lista.length === 0) {
+    tablaBody.innerHTML = `<tr><td colspan="4">❌ No se encontraron paradas en index.json</td></tr>`;
+    return;
+  }
+
+  lista.forEach(p => {
+    let opt = document.createElement("option");
+    opt.value = p;
+    opt.textContent = p;
+    paradaSelect.appendChild(opt);
+  });
+
+  paradaActual = lista[0];
+  console.log("Parada seleccionada por defecto:", paradaActual);
+  await mostrarHorarios();
 }
 
 paradaSelect.addEventListener("change", async e => {
