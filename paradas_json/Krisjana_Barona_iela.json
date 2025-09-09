@@ -1,0 +1,159 @@
+{
+  "nombre": " \"Krišjāņa Barona iela\"",
+  "maps": "https://www.google.com/maps?q=56.96792,24.1495",
+  "direcciones": {
+    "Kadaga → Rīga": [
+      {
+        "hora": " 06:07:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 06:26:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 06:57:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 07:36:00",
+        "dias": "6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 07:44:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 08:35:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 08:42:00",
+        "dias": "6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 09:22:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 10:32:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 11:07:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 12:08:00",
+        "dias": "6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 12:37:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 13:37:00",
+        "dias": "6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 13:37:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 14:42:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 15:37:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 15:37:00",
+        "dias": "6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 16:27:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 16:37:00",
+        "dias": "6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 17:23:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 17:31:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 17:37:00",
+        "dias": "6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 17:47:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 18:36:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 19:42:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 20:42:00",
+        "dias": "1 2 3 4 5 6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 21:52:00",
+        "dias": "6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 21:52:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      },
+      {
+        "hora": " 22:53:00",
+        "dias": "6 7",
+        "destino": " "
+      },
+      {
+        "hora": " 23:02:00",
+        "dias": "1 2 3 4 5",
+        "destino": " "
+      }
+    ],
+    "Rīga → Kadaga": []
+  }
+}
